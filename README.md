@@ -1,6 +1,13 @@
 # motd-setup-playbook-example
 This is the motd playbook where the the motd-setup-ansible role came from.  
 
+To run the playbook:  
+<pre>
+$ ansible-playbook motd-setup-playbook.yml --ask-become-pass  
+</pre>
+
+You will need the sudo/become password for the ansible/ssh user to run this playbook.  
+
 To develop an ansible role:  
 Write the playbook with descreet tasks.  
 Create files and templates needed for tasks.  
