@@ -26,6 +26,9 @@ The default values are stored under motd-setup-ansible/defaults/main.yml
 Take a look at https://github.com/customizedcode/motd-setup-ansible  
 and compare the files mentioned above.
 
+License
+--------
+MIT
 -----
 Roy Kim
 customizedcode.us
